@@ -23,7 +23,7 @@ class Object_Detector():
     category: category of the object to filter(should be one of the categories from MS-COCO dataset)
   
     Returns
-    ----------
+    ---------- 
     detections: List of detections. Each detection is a tuple of form (object_name, score, bbox).
     """
     img = Image(img)
