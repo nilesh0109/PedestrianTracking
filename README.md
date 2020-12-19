@@ -4,14 +4,14 @@ This project implements a pedestrian tracker from a side-view camera.
 - For object detection in each frame, pretrained YOLO-v3(on MS-COCO dataset) is used. The number of detections are reduced to keep only person class and filter out others.
 - For tracking the detected objects, a kalman filter is used. I have reused the Kalman filter based SORT(Simple Online and Realtime Tracking) algorithm from https://github.com/abewley/sort
 
-# Code Walkthrough
+<b>Code Walkthrough</b>
 - main.py  ----> main file for the detect_and_track function
 - sort.py   -----> SORT algorithm implementation from https://github.com/abewley/sort
 - YOLO   ------> YOLO-v3 related config files(icluding pretrained-weights)
 - utils.py  -------> utility methods 
 
 
-# How to run the code
+<b>How to run the code</b>
 ```
 pip install -r requirements.txt
 python main.py
