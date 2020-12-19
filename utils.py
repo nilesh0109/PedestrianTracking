@@ -94,7 +94,7 @@ def plot_detections(img: Image, detections: List) -> None:
   ----------
   None
   """
-  cmap = plt.get_cmap('tab20b')
+  cmap = plt.get_cmap('tab20b') 
   colors = [cmap(i)[:3] for i in np.linspace(0, 1, 20)]
   unique_labels = detections[:, -1].cpu().unique()
   n_cls_preds = len(unique_labels)
