@@ -17,6 +17,6 @@ pip install -r requirements.txt
 python main.py
 ```
 
-This would return the list of tracks. In order to see the whole trajectory, one need to plot the returned points on the videos frames and assemble them in a video using `cv2.VideoWriter`.
+This would return the list of tracks. In order to see the whole trajectory, one need to plot the returned points on the video frames and assemble them in a video using `cv2.VideoWriter`.
 
 
